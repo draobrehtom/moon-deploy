@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 WORKDIR /app
 COPY fx.tar.xz .
-RUN tar xf fx.tar.xz
+RUN tar -xf fx.tar.xz
 RUN chmod +x run.sh
 RUN ufw allow 30120/tcp
 RUN ufw allow 30120/udp

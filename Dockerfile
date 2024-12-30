@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
     xz-utils \
     && rm -rf /var/lib/apt/lists/*
 
-COPY fx.tar.xz .
+COPY . .
 RUN tar -xf fx.tar.xz
 RUN chmod +x run.sh
 EXPOSE 30120/tcp

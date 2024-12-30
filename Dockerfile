@@ -1,4 +1,4 @@
-FROM ubuntu:24.02
+FROM ubuntu:22.04
 WORKDIR /app
 COPY fx.tar.xz .
 RUN tar xf fx.tar.xz

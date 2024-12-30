@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPedModelInfo__InitDataList>
+ <InitDatas itemType="CPedModelInfo__InitData">
+  <Item>
+   <Name>a_c_lumandragon_01</Name>
+   <LocoArchetypes>
+    <Item>zcdkenda_0x1e2e94fd</Item>
+   </LocoArchetypes>
+   <FragName>meta_base_CalifornaCondor_01</FragName>
+   <ClipDictionaryName>czkwlyea_0x7dfeda41</ClipDictionaryName>
+   <BlendShapeFileName>null</BlendShapeFileName>
+   <ExpressionSetName>expr_set_a_c_vulture_01</ExpressionSetName>
+   <Pedtype>animal</Pedtype>
+   <MovementClipSet>yrqwhrsa_0x1d0c6cc9</MovementClipSet>
+   <fdhdosga_0xd282b498>default</fdhdosga_0xd282b498>
+   <FullBodyDamageClipSet>yiguvhpa_0x2dd0955e</FullBodyDamageClipSet>
+   <AdditiveDamageClipSet>dam_ad</AdditiveDamageClipSet>
+   <ajulutca_0xf656e7cc>clip_set_id_invalid</ajulutca_0xf656e7cc>
+   <mosasnka_0x33ee71a3>clip_set_id_invalid</mosasnka_0x33ee71a3>
+   <puyzvqga_0x7b02f627>clip_set_id_invalid</puyzvqga_0x7b02f627>
+   <GestureSettingsName>rooster</GestureSettingsName>
+   <FacialClipsetGroupName>facial_clipset_group_a_c_bird_01</FacialClipsetGroupName>
+   <DefaultVisemeClipSet>anim_group_visemes_m_lo</DefaultVisemeClipSet>
+   <SidestepClipSet>clip_set_id_invalid</SidestepClipSet>
+   <PoseMatcherName>californiacondor</PoseMatcherName>
+   <GetupSetHash>nmbs_californiacondor_dead</GetupSetHash>
+   <ScenarioCapabilities />
+   <CreatureMetadataName>null</CreatureMetadataName>
+   <qcrlzvka_0x3207fdf6>null</qcrlzvka_0x3207fdf6>
+   <!-- We set 'default' to prevent from immediate of flying away from player.  -->
+   <DecisionMakerName>default</DecisionMakerName>
+   <kwpxjyqa_0xc4e3a8e3>wildanimal</kwpxjyqa_0xc4e3a8e3>
+   <!-- Required for bird flying. -->
+   <MotionTaskDataSetName>californiacondor</MotionTaskDataSetName>
+   <DefaultTaskDataSetName>animal</DefaultTaskDataSetName>
+   
+   <!-- Capsule 'californiacondor' (default)  -->
+   <!-- To avoid CTD it always should match specific type in ScavengerLayout/SpeciesName -->
+   <PedCapsuleName>californiacondor</PedCapsuleName>
+
+   <PedLayoutName />
+   <PedComponentSetName>standard_bird_with_facial</PedComponentSetName>
+   <PedIKSettingsName>no_ik</PedIKSettingsName>
+   <TaskDataName>bird</TaskDataName>
+   <ClimbParamsName>standard_ped</ClimbParamsName>
+   <nuubccla_0x0ce51a59>standard_ped</nuubccla_0x0ce51a59>
+   <AmbulanceShouldRespondTo value="False" />
+   <CanRideBikeWithNoHelmet value="False" />
+   <CanSpawnInCar value="True" />
+   <bOnlyBulkyItemVariations value="False" />
+
+   <!-- To make as friend set to 'rel_gang_dutchs' -->
+   <RelationshipGroup>rel_domesticated_animal</RelationshipGroup>
+
+   <NavCapabilitiesName>flight_capable</NavCapabilitiesName>
+   
+   <!-- TODO: Test if makes any impact. Maybe related to sync in MP? -->
+   <!-- <SpeedDataName>default</SpeedDataName> -->
+   <SpeedDataName>fast</SpeedDataName>
+   
+   <PerceptionInfo>bird_perception</PerceptionInfo>
+   <DefaultBrawlingStyle>bs_animal</DefaultBrawlingStyle>
+   <DefaultUnarmedWeapon>weapon_animal</DefaultUnarmedWeapon>
+   <DefaultMeleeProgram>xvkhspsa_0x4fc75164</DefaultMeleeProgram>
+   <DefaultCombatDirector>lfjindga_0x7507fc63</DefaultCombatDirector>
+
+   <!-- Set as 'Unknown Animal' -->
+   <!-- default: at_californiacondor -->
+   <StatName />
+   <!-- default: species_bird_vulture -->
+   <SpeciesName>species_bird_vulture</SpeciesName>
+   <!-- default: lohpxoba_0x85123993 -->
+   <DiscoverableName />
+   <!-- default: ddrgyfoa_0xf0dfe9a6 -->
+   <UndiscoveredName />
+   <vhzqgnba_0x9e63e6ed>ruhuymea_0x4a59c18f</vhzqgnba_0x9e63e6ed>
+   <ScavengerLayout>vulture</ScavengerLayout>
+
+   <!-- A_C_Alligator_02 . Not sure what the effect. I set it for more gator sounds - not effect. -->
+   <!-- Possibly it has some relationship between other animals and npc humans. -->
+   <!-- possible values: small_animal, nrgvwbya_0x25dbb609 (bird), qtrompaa_0x04c615c3 (gator), bear  -->
+   <Personality>qtrompaa_0x04c615c3</Personality>
+
+   <AmbientResponseProfile>standard_ped</AmbientResponseProfile>
+   <DefaultWeaponLoadout>loadout_animal</DefaultWeaponLoadout>
+   <WeaponAnimationsGroup />
+   <!-- health_very_small_animal: 20 (default) -->
+   <!-- health_legendary_gator: health 350 -->
+   <!-- health_gang_companion: health 1200 -->
+   <HealthConfigHash>health_gang_companion</HealthConfigHash>
+   <!-- standard_ped_damage (default)-->
+   <elhtqona_0x895861da>bear_animal_damage</elhtqona_0x895861da>
+   <xhvibkra_0xb2fe2edf />
+   <CombatInfo>combat_animal</CombatInfo>
+   <qpnkkvea_0x3cf2af47>default</qpnkkvea_0x3cf2af47>
+   <VfxInfoName>jkgiffkb_0x703b6274</VfxInfoName>
+   <AmbientClipsForFlee />
+   
+   <!-- Small (default) -->
+   <!-- With xLarge we allow skinning and disable picking up -->
+   <GenericSkinningSize>XLarge</GenericSkinningSize>
+   <!-- Just take meat -->
+   <usjpufaa_0x43d57fd3 value="True" />
+
+   <Drivers />
+   <QualityProbability />
+   <Radio1>RADIO_GENRE_OFF</Radio1>
+   <Radio2>RADIO_GENRE_OFF</Radio2>
+   <MinActivationImpulse value="20" />
+   <Stubble value="0" />
+   <kcdwdkxa_0x0ab020bb value="0" />
+   <FurEffect value="0" />
+   <HDDist value="10" />
+   <dnqiqydc_0xc5691df9 value="-1" />
+   <gkuzagra_0xc6af94a8 value="0" />
+   <ntqafoba_0x5b0be8dc value="False" />
+   <!-- By default PS_MEDIUM -->
+   <PedSize>PS_EXTRA_LARGE</PedSize>
+   <Scale value="5" />
+   <CutsceneScale value="1" />
+   <ScaleRandomOffset value="0" />
+   <KilledPerceptionRangeModifer value="-1" />
+   <Sexiness />
+   <DamageDecalFlags />
+   <AgeGroup>AGE_ADULT</AgeGroup>
+   <mmgrbpma_0x6899d915>ibcedirb_0x22d02028</mmgrbpma_0x6899d915>
+   <MaxPassengersInCar value="0" />
+   <ExternallyDrivenDOFs>HIGH_HEELS, COLLAR, PISTOL_HOLSTER, LONGARM</ExternallyDrivenDOFs>
+   
+   <!-- A_C_Alligator_02 -->
+   <PedVoiceGroup>auqbecha_0x664d1b03</PedVoiceGroup>
+   <AnimalAudioObject>xhcmuctc_0x2022c975</AnimalAudioObject>
+
+   <ninvcmlb_0x8c9ccceb />
+   <ncuqpzia_0x7c337da0>whistle_set_default</ncuqpzia_0x7c337da0>
+   <BreathingSettingsName>animal_large</BreathingSettingsName>
+   <AbilityType>SAT_NONE</AbilityType>
+   <SecondaryAbilityType>SAT_NONE</SecondaryAbilityType>
+   <SuperlodType>ykcqpwwa_0x67934171</SuperlodType>
+   <ScenarioPopStreamingSlot>SCENARIO_POP_STREAMING_SMALL</ScenarioPopStreamingSlot>
+   <DefaultSpawningPreference>DSP_AERIAL</DefaultSpawningPreference>
+   <SpawnRange>SR_Default</SpawnRange>
+   <!-- Enable ped tracking -->
+   <TrackPed value="True" />
+   <TrackerPathWidth value="1" />
+   <!-- Extended lod distance for larger model such as Dragon. By default bird has 0 0 0, horse about 25 50 100 -->
+   <lodDistances>50 100 175</lodDistances>
+   <zutiasba_0xf45d226f value="0" />
+   <AttributeSet />
+   <chskwqha_0xc6d90bc4 />
+   <zrxuobaa_0x120c7ac8 value="0" />
+   <scorgaqa_0x187e18e5 value="50" />
+   <pbwlkcaa_0x15fd61aa value="80" />
+   <vslhbdca_0x2fc486f7 value="1" />
+   <xsmxfeaa_0xcffe931e value="False" />
+  </Item>
+ </InitDatas>
+</CPedModelInfo__InitDataList>

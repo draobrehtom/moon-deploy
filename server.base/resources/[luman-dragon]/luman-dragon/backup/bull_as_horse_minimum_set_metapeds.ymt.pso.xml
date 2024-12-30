@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPedModelInfo__InitDataList>
+ <InitDatas itemType="CPedModelInfo__InitData">
+  <Item>
+   <Name>a_c_lumanbull_01</Name>
+   <LocoArchetypes>
+    <Item>mfuqnsca_0xfe1577ec</Item>
+   </LocoArchetypes>
+   <FragName>META_Base_Horse_01</FragName> <!-- Required -->
+   <ClipDictionaryName>qzekrkga_0x793286c7</ClipDictionaryName>
+   <BlendShapeFileName>null</BlendShapeFileName>
+   <ExpressionSetName>expr_set_a_c_bull_01</ExpressionSetName>
+   <Pedtype>animal</Pedtype>
+   <MovementClipSet>sgkmcfla_0x5acf08f5</MovementClipSet>
+   <fdhdosga_0xd282b498>default</fdhdosga_0xd282b498>
+   <FullBodyDamageClipSet>jecgfhca_0x673381aa</FullBodyDamageClipSet>
+   <AdditiveDamageClipSet>dam_ad</AdditiveDamageClipSet>
+   <ajulutca_0xf656e7cc>clip_set_id_invalid</ajulutca_0xf656e7cc>
+   <mosasnka_0x33ee71a3>amb_creature_mammal@world_bull_injured_on_ground@death</mosasnka_0x33ee71a3>
+   <puyzvqga_0x7b02f627>clip_set_id_invalid</puyzvqga_0x7b02f627>
+   <GestureSettingsName>bull</GestureSettingsName>
+   <FacialClipsetGroupName>facial_clipset_group_a_c_buffalo_01</FacialClipsetGroupName>
+   <DefaultVisemeClipSet>anim_group_visemes_m_lo</DefaultVisemeClipSet>
+   <SidestepClipSet>creatures@cow@step</SidestepClipSet>
+   <PoseMatcherName>Bull</PoseMatcherName>
+   <GetupSetHash>nmbs_bull_getups</GetupSetHash>
+   <ScenarioCapabilities />
+   <CreatureMetadataName>null</CreatureMetadataName>
+   <qcrlzvka_0x3207fdf6>null</qcrlzvka_0x3207fdf6>
+   <DecisionMakerName>dm_domestic_livestock</DecisionMakerName>
+   <kwpxjyqa_0xc4e3a8e3>wildanimal</kwpxjyqa_0xc4e3a8e3>
+   <MotionTaskDataSetName>bull</MotionTaskDataSetName>
+   <DefaultTaskDataSetName>animal</DefaultTaskDataSetName>
+   <PedCapsuleName>bull</PedCapsuleName>
+   <PedLayoutName>layout_horse_standard</PedLayoutName> <!-- Required -->
+   <PedComponentSetName>horse</PedComponentSetName> <!-- Required -->
+   <PedIKSettingsName>standard_quadruped_ik</PedIKSettingsName>
+   <TaskDataName>cow</TaskDataName>
+   <ClimbParamsName>horse</ClimbParamsName> <!-- Required -->
+   <nuubccla_0x0ce51a59>standard_ped</nuubccla_0x0ce51a59>
+   <AmbulanceShouldRespondTo value="False" />
+   <CanRideBikeWithNoHelmet value="False" />
+   <CanSpawnInCar value="True" />
+   <bOnlyBulkyItemVariations value="False" />
+   <RelationshipGroup>rel_domesticated_animal</RelationshipGroup>
+   <NavCapabilitiesName>bull</NavCapabilitiesName>
+   <SpeedDataName>default</SpeedDataName>
+   <PerceptionInfo>barnyard_perception</PerceptionInfo>
+   <DefaultBrawlingStyle>bs_bull</DefaultBrawlingStyle>
+   <DefaultUnarmedWeapon>weapon_horse</DefaultUnarmedWeapon>
+   <DefaultMeleeProgram>xvkhspsa_0x4fc75164</DefaultMeleeProgram>
+   <DefaultCombatDirector>lfjindga_0x7507fc63</DefaultCombatDirector>
+   <StatName>at_bull_angus</StatName>
+   <SpeciesName>species_bull</SpeciesName>
+   <DiscoverableName>ekiylkua_0xdc9859ba</DiscoverableName>
+   <UndiscoveredName>blcbxhca_0x2a5fe635</UndiscoveredName>
+   <vhzqgnba_0x9e63e6ed>ruhuymea_0x4a59c18f</vhzqgnba_0x9e63e6ed>
+   <ScavengerLayout>bull</ScavengerLayout>
+   <Personality>pfflwuma_0x785bcc0c</Personality>
+   <AmbientResponseProfile>standard_ped</AmbientResponseProfile>
+   <DefaultWeaponLoadout>loadout_horse</DefaultWeaponLoadout>
+   <WeaponAnimationsGroup />
+   <HealthConfigHash>health_huge_animal</HealthConfigHash>
+   <elhtqona_0x895861da>bull_animal_damage</elhtqona_0x895861da>
+   <xhvibkra_0xb2fe2edf />
+   <CombatInfo>combat_animal</CombatInfo>
+   <qpnkkvea_0x3cf2af47>default</qpnkkvea_0x3cf2af47>
+   <VfxInfoName>fpqcftda_0x9bd5f462</VfxInfoName>
+   <AmbientClipsForFlee />
+   <GenericSkinningSize>XLarge</GenericSkinningSize>
+   <usjpufaa_0x43d57fd3 value="False" />
+   <Drivers />
+   <QualityProbability />
+   <Radio1>RADIO_GENRE_OFF</Radio1>
+   <Radio2>RADIO_GENRE_OFF</Radio2>
+   <MinActivationImpulse value="200" />
+   <Stubble value="0" />
+   <kcdwdkxa_0x0ab020bb value="0" />
+   <FurEffect value="0" />
+   <HDDist value="0" />
+   <dnqiqydc_0xc5691df9 value="-1" />
+   <gkuzagra_0xc6af94a8 value="0" />
+   <ntqafoba_0x5b0be8dc value="False" />
+   <PedSize>PS_EXTRA_LARGE</PedSize>
+   <Scale value="1" />
+   <CutsceneScale value="1" />
+   <ScaleRandomOffset value="0.01" />
+   <KilledPerceptionRangeModifer value="-1" />
+   <Sexiness />
+   <DamageDecalFlags />
+   <AgeGroup>AGE_ADULT</AgeGroup>
+   <mmgrbpma_0x6899d915>ibcedirb_0x22d02028</mmgrbpma_0x6899d915>
+   <MaxPassengersInCar value="0" />
+   <ExternallyDrivenDOFs>BREATHING</ExternallyDrivenDOFs>
+   <PedVoiceGroup>szzfriaa_0x087d1fc0</PedVoiceGroup>
+   <AnimalAudioObject>aedyfcka_0xe1968f46</AnimalAudioObject>
+   <ninvcmlb_0x8c9ccceb />
+   <ncuqpzia_0x7c337da0>whistle_set_default</ncuqpzia_0x7c337da0>
+   <BreathingSettingsName>animal_large</BreathingSettingsName>
+   <AbilityType>SAT_NONE</AbilityType>
+   <SecondaryAbilityType>SAT_NONE</SecondaryAbilityType>
+   <SuperlodType>bfocbega_0x7e846c85</SuperlodType>
+   <ScenarioPopStreamingSlot>SCENARIO_POP_STREAMING_NORMAL</ScenarioPopStreamingSlot>
+   <DefaultSpawningPreference>DSP_GROUND_WILDLIFE</DefaultSpawningPreference>
+   <SpawnRange>SR_Default</SpawnRange>
+   <TrackPed value="True" />
+   <TrackerPathWidth value="1" />
+   <lodDistances>15 35 80</lodDistances>
+   <zutiasba_0xf45d226f value="1" />
+   <AttributeSet />
+   <chskwqha_0xc6d90bc4 />
+   <zrxuobaa_0x120c7ac8 value="0" />
+   <scorgaqa_0x187e18e5 value="50" />
+   <pbwlkcaa_0x15fd61aa value="80" />
+   <vslhbdca_0x2fc486f7 value="1" />
+   <xsmxfeaa_0xcffe931e value="False" />
+  </Item>
+ </InitDatas>
+</CPedModelInfo__InitDataList>

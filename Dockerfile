@@ -1,9 +1,12 @@
 FROM ubuntu:22.04
 WORKDIR /app
+
+# Install xz-utils and ufw
+RUN apt-get update && apt-get install -y \
+    xz-utils \
+    && rm -rf /var/lib/apt/lists/*
+
 COPY fx.tar.xz .
 RUN tar -xf fx.tar.xz
 RUN chmod +x run.sh
-RUN ufw allow 30120/tcp
-RUN ufw allow 30120/udp
-RUN ufw allow 40120/tcp
 CMD ./run.sh

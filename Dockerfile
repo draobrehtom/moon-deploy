@@ -9,4 +9,6 @@ RUN apt-get update && apt-get install -y \
 COPY fx.tar.xz .
 RUN tar -xf fx.tar.xz
 RUN chmod +x run.sh
+EXPOSE 30120/tcp
+EXPOSE 30120/udp
 CMD ./run.sh
